@@ -1,0 +1,128 @@
+:root{
+    scroll-behavior: smooth;
+    --bg-img:url(/static/img/arbolesRojos.jpg);
+    --bg-color:black;
+    --text-color:aquamarine;
+    
+}
+body{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+ .navbar {
+    background-color: transparent;
+}
+
+ .navbar .container-fluid .navbar-brand{
+    color: var(--text-color);
+}
+ .navbar .container-fluid .nav-item .nav-link{
+    color: var(--text-color);
+}
+.portada .navbar .container-fluid  .collapse .d-flex .btn .link{
+    color: var(--text-color);
+}
+
+.container .textPortada{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:150px;
+    position: relative;
+    
+    
+
+}
+
+.portada{
+    background-image: url(/static/img/arbolesRojos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    color: var(--text-color);
+}
+
+.tituloSeccion{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.subTema{
+    color: var(--text-color);
+}
+
+.card-group .card{
+    background-color: black;
+}
+
+.card-group .card .card-body{
+    color: var(--text-color);
+}
+
+.card-group .card .card-body .card-title{
+    text-align: center;
+}
+.card-group .card .card-body .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+
+.card-group .card .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-group .card .card-footer .btn{
+   
+    color: var(--text-color);
+}
+
+
+
+.tarjetas{
+    background-color: black;
+    color: var(--text-color);
+}
+.tarjetas .row .col-md-6 .mt-0{
+    text-align: center;
+    margin: 1cm;
+}
+
+.footer .table thead{
+    text-align: center;
+}
+
+
+.portada .navbar .container-fluid .collapse .navbar-nav .d-flex .btn{
+   color: var(--text-color);
+}
+
+.footer .table .thead h1{
+   text-align: center;
+}
+
+.footer{
+    color: var(--text-color);
+    text-align: center;
+}
+.footer .table{
+    color: var(--text-color);
+}
+.footer .table .tbody tr{
+    color: var(--text-color);
+   
+}
+.footer .table .tbody td{
+    color: var(--text-color);
+}

@@ -1,0 +1,33 @@
+:root{
+    scroll-behavior: smooth;
+    --bg-color:black;
+    --text-color:aquamarine;
+    --bg-img:url(/static/img/arbolesRojos.jpg);
+}
+
+body{
+    background: var(--bg-img);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-lg .login{
+    margin: 1cm;
+    border: 2px solid black;
+    text-align: center;
+}
+.container-lg .login .form{
+    margin: 2cm;
+}
+
+.container-lg .login .form .row h1{
+    color: var(--text-color);
+   margin: 1cm;
+}
+.container-lg .login .form .row label{
+    color: var(--text-color);
+}
+
+.container-lg .login .form button{
+    color: var(--text-color);
+}

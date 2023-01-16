@@ -1,14 +1,18 @@
 :root{
     scroll-behavior: smooth;
     --bg-color:black;
-    --text-color:aquamarine;
-    --bg-img:url(/static/img/arbolesRojos.jpg);
+    --text-color:rgb(253, 249, 14);
+    --bg-img:url(/static/img/portadaPalmerasMoradas.jpg);
 }
-
+*{
+    padding: 0%;
+}
 body{
-    background: var(--bg-img);
+    background-image: var(--bg-img);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
 }
 
 .container-lg .login{
@@ -23,6 +27,7 @@ body{
 .container-lg .login .form .row h1{
     color: var(--text-color);
    margin: 1cm;
+   
 }
 .container-lg .login .form .row label{
     color: var(--text-color);
@@ -30,4 +35,19 @@ body{
 
 .container-lg .login .form button{
     color: var(--text-color);
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 2px;
+    background: rgba(5,7,12,0.40);
+    opacity: 90%;
+    
+}
+.container-lg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

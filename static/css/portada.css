@@ -1,8 +1,8 @@
 :root{
     scroll-behavior: smooth;
-    --bg-img:url(/static/img/arbolesRojos.jpg);
+    --bg-img:url(/static/img/portadaGoodTrip.jpg);
     --bg-color:black;
-    --text-color:aquamarine;
+    --text-color:rgb(255, 253, 127);
     
 }
 body{
@@ -26,7 +26,9 @@ body{
 .portada .navbar .container-fluid  .collapse .d-flex .btn .link{
     color: var(--text-color);
 }
-
+.tituloSeccion h1{
+    color: rgb(241, 24, 24);
+}
 .container .textPortada{
     display: flex;
     justify-content: center;
@@ -39,7 +41,7 @@ body{
 }
 
 .portada{
-    background-image: url(/static/img/arbolesRojos.jpg);
+    background-image: url(/static/img/Imagen\ de\ WhatsApp\ 2023-01-15\ a\ las\ 17.19.37.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,12 +70,13 @@ body{
 
 .card-group .card .card-body .card-title{
     text-align: center;
+    color: rgb(241, 18, 18);
 }
 .card-group .card .card-body .btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: aquamarine;
+    color: rgb(218, 214, 25);
 }
 
 .card-group .card .card-footer {
@@ -88,6 +91,13 @@ body{
     color: var(--text-color);
 }
 
+.containerTarjetas .row .col-md-6 .mt-0 {
+    color: rgb(247, 12, 12);
+}
+
+.containerTarjetas .row .col-md-6 a{
+    color: aqua;
+}
 
 
 .tarjetas{
